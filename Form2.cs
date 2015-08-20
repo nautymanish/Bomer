@@ -123,7 +123,7 @@ namespace BomberMan
                 string dprev = string.Format("{0},{1}",  lrow - 1, lcol - 1);
                 string dnext = string.Format("{0},{1}", lrow + 1, lcol + 1);
 
-                string nprev = string.Format("{0},{1}", lrow,  cols - 1);
+                string nprev = string.Format("{0},{1}", lrow,  lcol - 1);
                 string nnext = string.Format("{0},{1}", lrow,  lcol + 1);
 
                 string lprev = string.Format("{0},{1}",  lrow - 1,  lcol + 1);
@@ -135,8 +135,8 @@ namespace BomberMan
                 string sdprev = string.Format("{0},{1}", lrow - 2,  lcol - 2);
                 string sdnext = string.Format("{0},{1}", lrow + 2, lcol + 2);
 
-                string snprev = string.Format("{0},{1}",  lrow - 2, lcol);
-                string snnext = string.Format("{0},{1}",  lrow + 2, lcol);
+                string snprev = string.Format("{0},{1}",  lrow , lcol-2);
+                string snnext = string.Format("{0},{1}",  lrow , lcol+2);
 
                 string slprev = string.Format("{0},{1}",  lrow - 2,  lcol + 2);
                 string slnext = string.Format("{0},{1}",  lrow + 2,  lcol - 2);
